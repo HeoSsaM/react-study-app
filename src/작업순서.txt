@@ -1,0 +1,36 @@
+*** 수업 제작 순서 ***
+1) 페이지 경로
+│  ├─ Nav.jsx
+│  ├─ Hero.jsx
+│  ├─ InfoCard.jsx
+│  ├─ Counter.jsx
+│  ├─ NoticeBox.jsx
+│  ├─ ClassCard.jsx
+│  └─ TodoItem.jsx
+├─ pages
+│  ├─ Home.jsx
+│  ├─ ClassPage.jsx
+│  └─ TodoPage.jsx
+├─ App.jsx
+├─ main.jsx
+└─ index.css
+
+2. 순서
+1) Router연결 -> main.jsx-> BrowserRouter
+2) Header+Nav-> useNavigate
+3) Home
+4) Counter(state->상태관리)
+5) ClassPage(filter/map)
+6) Todopage(state+map)
+
+++ 각 기능 ++
+1) components = 재사용UI
+2) pages -> 페이지 화면구현
+3) App -> 전체 구조
+4) Main -> React 시작
+5) Router -> 페이지 이동
+6) State -> 상태관리 (화면에서 변하는 값)
+7) map -> 반복함수(UI를 구현)
+8) filter -> 원하는 값을 새로운 배열로 생성(검색)
+9) event -> 버튼 클릭 이벤트
+
